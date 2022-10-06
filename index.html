@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman fitness</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Roboto:wght@900&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+
+        font-family: 'Baloo Bhai 2', cursive;
+        font-family: 'Roboto', sans-serif;
+
+        margin: 0px;
+        padding: 0px;
+        background: url('img/ab.jpeg');
+        color: white;
+
+
+    }
+
+    .left {
+        border: 2px solid gray;
+        display: inline-block;
+        position: absolute;
+        right: 1640px;
+        left: 15px;
+        top: 10px;
+        width: 90px;
+
+    }
+
+    .left img {
+        width: 90px;
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 33%;
+        margin: 12px auto;
+        border: 2px solid grey;
+        padding: 40px;
+    }
+
+    .right {
+        position: absolute;
+        right: 20px;
+        left: auto;
+        top: 10px;
+        display: inline-block;
+        /* border: 2px solid grey; */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 15px;
+
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        color: grey;
+        text-decoration: underline;
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai 2', cursive;
+        font-family: 'Roboto', sans-serif;
+        margin: 0px 2px;
+        background-color: black;
+        color: white;
+        padding: 4px 2px;
+        border: 2px solid grey;
+        border-radius: 5px;
+        cursor: pointer;
+        
+    }
+
+    .btn :hover {
+
+        color: gray;
+
+        text-decoration: underline;
+
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 16px 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+        position: relative;
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhai 2', cursive;
+        font-family: 'Roboto', sans-serif;
+        text-align: left;
+        display: block;
+        width: 330px;
+        padding: 10px;
+        border: 2px solid white;
+        margin: 15px auto;
+        border-radius: 30px;
+        background-color: white;
+        font-size: 15px;
+
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container Button {
+        font-family: 'Baloo Bhai 2', cursive;
+        font-family: 'Roboto', sans-serif;
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        display: block;
+        width: 12%;
+        margin: 8px 480px;
+        border: 2px solid grey;
+        padding: 13px auto;
+
+    }
+    .container button :hover{
+        color: gray;
+
+        text-decoration: underline; 
+    }
+    select{
+        font-family: 'Baloo Bhai 2', cursive;
+        font-family: 'Roboto', sans-serif;
+        text-align: left;
+        display: block;
+        width: 350px;
+        padding: 10px;
+        border: 2px solid white;
+        margin: 15px auto;
+        border-radius: 30px;
+        background-color: white;
+        color: grey;
+        font-size: 15px;
+        
+
+    }
+</style>
+
+<body>
+    <header class="header">
+
+        <div class="left">
+            <img src="img/download.jpg" alt="">
+            <div>Aman Fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+
+            <button class="btn">Email Us</button>
+
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>Join The Best Gym in Garhmukteshwar </h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Address">
+            </div>
+        
+            <div>
+            <select name="Gender" id="Gender">
+                <option value="select">select Your Gender </option></option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+                
+            </select>
+            </div>
+            <div class="Butoon">
+
+            <Button class="btn">Submit</Button>
+            <Button class="btn">Reset</Button>
+            </div>
+
+        
+        </form>
+    </div>
+
+</body>
+
+</html>

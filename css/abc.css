@@ -1,0 +1,23 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.container{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    
+}
+.wrapper{
+       padding: 0px;
+       margin: 0px;
+       background-image: url('img/abc.webp');
+       background-repeat: no-repeat;
+       background-size: cover;
+       
+}
